@@ -63,3 +63,7 @@ form input{
 }.btnCalcular:hover{
     opacity: 75%;
 }
+.dados{
+    text-align: start;
+    margin: 50px;
+}
