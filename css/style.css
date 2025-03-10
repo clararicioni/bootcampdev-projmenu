@@ -54,16 +54,44 @@ form input{
     box-shadow: 2px 2px 10px grey;
 }
 .btnCalcular{
+    padding: 15px;
+    width: 80%;
     background-color: #0069D7;
     border: none;
     color: white;
     border-radius: 10px;
     cursor: pointer;
-    margin-bottom: 10px;
+    margin: 20px;
 }.btnCalcular:hover{
     opacity: 75%;
 }
 .dados{
     text-align: start;
     margin: 50px;
+}
+.quantity {
+    display: flex;
+    flex-direction: row;
+    justify-content: center
+    
+}
+.quantity .input-text.qty {
+    outline: none;
+    width: 35px;
+    height: 39px;
+    padding: 0 5px;
+    text-align: center;
+    background-color: transparent;
+    border: 1px solid #efefef;
+}
+.quantity.buttons_added .minus,
+.quantity.buttons_added .plus {
+    padding: 7px 10px 8px;
+    height: 41px;
+    background-color: #ffffff;
+    border: 1px solid #efefef;
+    cursor: pointer;
+}.quantity.buttons_added .minus:hover,
+.quantity.buttons_added .plus:hover {
+    opacity: 75%;
 }
